@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Fiber Assay Analyzer: stratified Wilcoxon (van Elteren-style) permutation workflow"
+version: "1.0.0"
+date-released: 2026-04-10
+type: software
+authors:
+  - family-names: "Terreau"
+    given-names: "Sébastien"
+repository-code: "https://github.com/USERNAME/fiber-assay-analyzer"
+abstract: >-
+  A Python GUI for DNA fiber assay analysis implementing planned pairwise
+  stratified Wilcoxon (van Elteren-style) permutation tests across
+  biological replicates, with export of analysis logs and results.
+license: MIT
+keywords:
+  - DNA fiber assay
+  - van Elteren
+  - stratified Wilcoxon
+  - permutation test
+  - biostatistics
+  - replication stress
