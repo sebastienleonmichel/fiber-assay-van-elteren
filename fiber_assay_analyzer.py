@@ -1,16 +1,20 @@
 """
-Fiber Assay Analyzer — GUI (groups, replicates, contrasts, options) + Stratified Wilcoxon backend
+Fiber Assay Analyzer
 
-WHAT'S NEW vs your version:
-- Adds explicit REPLICATE mapping (each column -> group + replicate).
-- Replaces mixed model with a stratified Wilcoxon (van Elteren–style) test
-  computed via within-replicate permutations.
-- Allows log-transform for ratios for EFFECT SIZE DISPLAY (p-values are rank-based).
-- Multiple-comparison adjustment across planned contrasts (Holm/Bonferroni/FDR).
-- Exports a results CSV and a JSON config; run log states the exact method.
+GUI-based tool for DNA fiber assay analysis using
+stratified Wilcoxon (van Elteren–style) permutation tests.
 
-Dependencies: tkinter, pandas, numpy, scipy
-If loading .xlsx you also need: openpyxl
+Features:
+- Replicate-aware (biological blocking)
+- Planned pairwise contrasts
+- Multiple testing correction (Holm / Bonferroni / FDR)
+- Effect size reporting (median-of-medians, fold-change, log2 FC)
+- Export of results, config, and run log
+
+Author: Sébastien Terreau
+Year: 2026
+License: MIT
+DOI: https://doi.org/10.5281/zenodo.19500565
 """
 
 import os
