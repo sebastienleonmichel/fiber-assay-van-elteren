@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 19 16:35:50 2025
-
-@author: hwurt
-"""
-
-# -*- coding: utf-8 -*-
 """
 Fiber Assay Analyzer — GUI (groups, replicates, contrasts, options) + Stratified Wilcoxon backend
 
